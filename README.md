@@ -17,7 +17,7 @@ A modern frontend starter using [Vite](https://vitejs.dev/), [React](https://rea
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/your-project.git
+git clone git@github.com:MohdBilal999/web-builder.git
 cd your-project
 npm install
 ```
