@@ -86,7 +86,7 @@ export default function Canvas({ isPreviewMode, viewportSize }: CanvasProps) {
     }
   }
 
-  const handleLayoutChange = (layout: Layout[], layouts: { [key: string]: Layout[] }) => {
+  const handleLayoutChange = (layout: Layout[]) => {
     // Update the layout of all elements
     layout.forEach((item) => {
       updateElementLayout(item.i, {

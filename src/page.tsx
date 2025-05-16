@@ -10,7 +10,7 @@ import { SplashScreen } from "@/components/splash-screen"
 
 export default function LandingPage() {
   const [isLoading, setIsLoading] = useState(true)
-  const { theme } = useTheme()
+  useTheme()
 
   // Simulate loading time
   useEffect(() => {

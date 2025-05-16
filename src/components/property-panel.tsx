@@ -19,7 +19,7 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 
 export default function PropertyPanel() {
-  const { selectedElementId, elements, updateElementProperties, removeElement, duplicateElement } = useBuilderStore()
+  const { selectedElementId, elements, removeElement, duplicateElement } = useBuilderStore()
   const [activeTab, setActiveTab] = useState("content")
   const { toast } = useToast()
 

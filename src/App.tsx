@@ -7,7 +7,6 @@ const App = () => {
     <ThemeProvider>
       <Routes>
         <Route path="/" element={<WebsiteBuilder />} />
-        {/* Add more routes as needed */}
       </Routes>
     </ThemeProvider>
   )

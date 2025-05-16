@@ -22,7 +22,7 @@ interface ToastContextValue {
   dismiss: (id: string) => void
 }
 
-const Toast = ({ id, title, description, variant = "default", onClose }: ToastProps) => {
+const Toast = ({ title, description, variant = "default", onClose }: ToastProps) => {
   return (
     <motion.div
       layout
